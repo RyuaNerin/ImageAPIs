@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageAPIs", "ImageAPIs\ImageAPIs.csproj", "{A758128A-0582-4DB8-84E9-9F0D9E57131F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageAPIsDemo", "Demo\ImageAPIsDemo.csproj", "{6CB48089-CCFB-4DB1-A78E-75F826CB07AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A6B1FA55-6E77-4BFF-929E-9EF8573AD6E6}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A758128A-0582-4DB8-84E9-9F0D9E57131F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A758128A-0582-4DB8-84E9-9F0D9E57131F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A758128A-0582-4DB8-84E9-9F0D9E57131F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A758128A-0582-4DB8-84E9-9F0D9E57131F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB48089-CCFB-4DB1-A78E-75F826CB07AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB48089-CCFB-4DB1-A78E-75F826CB07AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB48089-CCFB-4DB1-A78E-75F826CB07AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB48089-CCFB-4DB1-A78E-75F826CB07AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
