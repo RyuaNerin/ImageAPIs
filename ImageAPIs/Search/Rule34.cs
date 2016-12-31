@@ -9,7 +9,7 @@ namespace ImageAPIs.Search
 		public override int EngineID { get { return EngineIDs.eRule34; } }
 
 		public Rule34()
-			: base("http://rule34.xxx/index.php?page=dapi&s=post&q=index", "tags", "pid", "limit", true)
+			: base("http://rule34.xxx/index.php?page=dapi&s=post&q=index", "tag", "pid", "limit", false)
 		{
 		}
 	}

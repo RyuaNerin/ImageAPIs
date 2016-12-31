@@ -9,16 +9,28 @@ namespace ImageAPIsDemo
 {
 	class Program
 	{
-		static SearchImage si = new ImageAPIs.Search.Yandere();
+		static SearchImage si = new ImageAPIs.Search.sizebooru();
 
 		static void Main(string[] args)
 		{
-			IAsyncResult result = si.BeginSearch(new SearchOption("tsutsukakushi_tsukiko"), Callback, 0);
+            //Yandare ==> OK
+            //Gelbooru ==> fixed
+            //ChanSankaku ==> dead/protected
+            //Danbooru=> fixed
+            //EShuushuu => broken or?
+            //Furry->FIXED
+            //IdolSankaku => broken
+            //Konachan=> ok
+            //rule34->ok
+            //Safebooru->ok
+            //Xbooru->ok
 
-			while (true)
-			{
-				Thread.Sleep(100);
-			}
+
+            //todo "http://rule34.booru.org/" <-ok
+            //"http://size.booru.org/"
+            IAsyncResult result = si.BeginSearch(new SearchOption(), Callback, 0);
+
+            Console.ReadLine();
 		}
 
 		static void Callback(IAsyncResult async)
