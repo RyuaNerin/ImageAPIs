@@ -17,6 +17,8 @@ namespace ImageAPIs
 		public const int eFurry			= 7;
 		public const int eChanSankaku	= 8;
 		public const int eIdolSankaku	= 9;
-		public const int eEShuushuu		= 10;
-	}
+        public const int eEShuushuu = 10;
+        public const int sizebooru = 11;
+
+    }
 }
